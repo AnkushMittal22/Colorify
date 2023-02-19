@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import Color from "./Page/Color";
+import Sign from "./Page/Sign";
+import { useSelector } from "react-redux";
+import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
 function App() {
+  // const isLoding = useSelector((state) => state.isLoding);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Route path={"/"} exact>
+        <Sign />
+      </Route>
+      <Route path={"/home"}>
+        <Color />
+      </Route>
+    </BrowserRouter>
   );
 }
 

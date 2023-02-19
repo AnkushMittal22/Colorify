@@ -1,0 +1,54 @@
+.signInUp{
+    width: 90%;
+    max-width: 40rem;
+    border: 1px solid black;
+    box-shadow: inset;
+    text-align: center;
+    margin: 6rem auto;
+    background-color: grey;
+}
+
+.signInUp:hover{
+    border-radius: 1rem;
+    border: 2px solid red;
+}
+
+.signInUp p{
+    font-weight: bold;
+    font-size: x-large;
+    letter-spacing: 1rem;
+    color: white;
+}
+
+.signInUp label{
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+      
+}
+
+.signInUp input{
+    width: 80%;
+    margin: 1rem 0 1rem 0;
+    font-weight: bold;
+    padding: 0.3rem;
+}
+
+.action_sign{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0 1rem 0;
+}
+
+.action_sign button{
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 1rem;
+}
+
+.action_sign button:hover{
+    background-color: rgba(255, 255, 0, 0.545);
+    color: white;
+    border-radius: 0;
+}

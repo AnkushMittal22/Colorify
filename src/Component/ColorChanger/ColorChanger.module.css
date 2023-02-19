@@ -1,0 +1,110 @@
+.main header{
+    width: 90%;
+    max-width: 20rem;
+    border: 2px solid black;
+    margin: 4rem auto;
+    text-align: center;
+    box-shadow: 7px 7px 7px black, 1px 1px 40px;
+    border-radius: 1rem;
+}
+
+.main nav{
+    position: absolute;
+    right: 5rem;
+}
+
+
+.main nav button{
+padding: 1rem 2rem;
+font-weight: bold;
+background-color: rgba(255, 0, 0, 0.495);
+color: white;
+border-radius: 0.5rem;
+border: none;
+}
+
+.main nav button:hover{
+    background-color: yellow;
+    color: black;
+    padding: 1rem 1.5rem;
+    font-size: large;
+    box-shadow: 0 0 0 8px
+}
+
+.action_home button{
+    padding: 1rem 2rem;
+    font-weight: bold;
+     background-color: rgba(0, 0, 0, 0.427);
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.input_Value{
+    margin:2rem 0 1rem 0
+}
+
+.input_Value input{
+    width: 80%;
+}
+
+.getColorFromFetch{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+   
+}
+
+.getColorFromFetch main{
+    margin: 1rem;
+}
+
+.edit{
+    width: 2rem;
+}
+
+.remove{
+    width: 2rem;
+    float: right;
+}
+
+footer{
+    margin-left: 48%;
+}
+
+.ldsfacebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .ldsfacebook span {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #100808;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .ldsfacebook span:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .ldsfacebook span:nth-child(2) {
+    left: 32px;
+    animation-delay: 0s;
+  }
+  .ldsfacebook span:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
